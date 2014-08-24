@@ -1,0 +1,69 @@
+.frame_12
+	.grid_4.prefix_4.margin_t_20
+		#calculator.pad_10.pad_b_0.wall
+			
+			#calcDisplay.pretty_input.margin_t_10.margin_b_20(contenteditable="true" data-placeholder="0")
+
+			.grid_clear
+
+			.grid_1.alpha
+				.calcButton.mathButton(data-value="7" data-keycode="55")
+					7
+			.grid_1
+				.calcButton.mathButton(data-value="8" data-keycode="56")
+					8
+			.grid_1
+				.calcButton.mathButton(data-value="9" data-keycode="57")
+					9
+
+			.grid_1.omega
+				.calcButton.mathButton.operationButton(data-value="+" data-keycode="43")
+					&#43;
+
+			.grid_clear
+
+			.grid_1.alpha
+				.calcButton.mathButton(data-value="4" data-keycode="52")
+					4
+			.grid_1
+				.calcButton.mathButton(data-value="5" data-keycode="53")
+					5
+			.grid_1
+				.calcButton.mathButton(data-value="6" data-keycode="54")
+					6
+
+			.grid_1.omega
+				.calcButton.mathButton.operationButton(data-value="-" data-keycode="45")
+					&#45;
+
+			.grid_clear
+
+			.grid_1.alpha
+				.calcButton.mathButton(data-value="1" data-keycode="49")
+					1
+			.grid_1
+				.calcButton.mathButton(data-value="2" data-keycode="50")
+					2
+			.grid_1
+				.calcButton.mathButton(data-value="3" data-keycode="51")
+					3
+
+			.grid_1.omega
+				.calcButton.mathButton.operationButton(data-value="/" data-keycode="47")
+					&#247;
+
+			.grid_clear
+
+			.grid_1.alpha
+				.calcButton.mathButton.margin_b_10(data-value="0" data-keycode="48")
+					0
+			.grid_1
+				#clearButton.calcButton.margin_b_10
+					Clear
+			.grid_1
+				.calcButton#equalButton.operationButton.margin_b_10(data-value="=" data-keycode="61")
+					&#61;
+			.grid_1.omega
+				.calcButton.mathButton.operationButton.margin_b_10(data-value="*" data-keycode="42")
+					&#215;
+

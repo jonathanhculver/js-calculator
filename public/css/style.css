@@ -1,0 +1,93 @@
+/** global styles **/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: #444;
+}
+
+h1, h2 {
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.grey {
+	color: #999;
+}
+
+.hide {
+	display:none !important;
+}
+
+/*** inputs ***/
+
+.pretty_input {
+	border: 1px solid #666;
+	border-radius: 3px;
+	margin: 0;
+	padding: 8px 5px;
+}
+
+.pretty_input:focus{
+    outline: none;
+}   
+
+#calcDisplay.placeholder {
+	color: #666;
+}
+
+/** calculator styles ***/
+
+#calculator {
+	border: 1px solid #999;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #999;
+}
+
+#calcDisplay {
+	height: 20px;
+	color: #FFF;
+}
+
+.calcButton {
+	padding: 10px;
+	border: 2px solid #999;
+	margin-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #D9DADC;
+	border-color: #D9DADC;
+}
+
+.calcButton:hover {
+	border-color: #999;
+}
+
+.operationButton {
+	background-color: #F09029;
+	color: #FFF;
+	border-color: #F09029;
+}
+
+.pressed {
+	border: 1px solid #999;
+}
+
+/** end calc styles **/
+
+
+
+
+
